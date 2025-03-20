@@ -1,5 +1,9 @@
 # XSS PoC - Prova de Conceito
 
+## ⚠️ **Aviso Legal**
+🚨 **Este projeto é destinado a pesquisas de segurança ética e testes autorizados.**  
+⚠️ **Não utilize em sistemas sem permissão explícita!** 
+#
 ## Descrição do Projeto
 
 Este projeto demonstra uma vulnerabilidade de **Cross-Site Scripting (XSS)**. A PoC explora a execução de código JavaScript injetado através de parâmetros não sanitizados em uma aplicação vulnerável. O ataque pode ser usado para alterar o conteúdo da página, exibir mensagens enganosas, carregar iframes maliciosos ou roubar dados do usuário.

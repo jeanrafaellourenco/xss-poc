@@ -1,0 +1,7 @@
+{
+    "url": "https://jeanrafaellourenco.github.io/xss-poc/swagger/xss.yaml",
+    "urls": [{
+        "url": "https://jeanrafaellourenco.github.io/xss-poc/swagger/xss.yaml",
+        "name": "Poc xss"
+    }]
+}
